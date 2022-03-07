@@ -25,6 +25,7 @@ Where `<formula>` is the name of one of the .rb files in the root of this repo,
 minus the 'rb suffix. e.g.:
 
     $ brew install opentable/m1/librdkafka-1.8.2
+    $ sudo ln -s /opt/homebrew/lib/librdkafka.dylib /usr/local/lib/librdkafka.dylib
 
 This command will install [librdkafka-1.8.2] and set up your local `opentable/m1` tap
 so that you receive updates in future.
